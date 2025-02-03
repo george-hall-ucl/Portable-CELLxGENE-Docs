@@ -1,35 +1,90 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+<center><img src="assets/images/favicon_new_export_small.png"></center>
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<center><h1>Portable-CELLxGENE</h1></center>
 
-More specifically, the created site:
+**Portable-CELLxGENE** is a standalone version of
+[CELLxGENE](https://github.com/chanzuckerberg/cellxgene) and
+[CELLxGENE-gateway](https://github.com/Novartis/cellxgene-gateway) to allow
+single-cell transcriptomic data to be annotated without needing the command
+line or extra software.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## Installation
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### MacOS
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+1. If your computer has an Apple M-series chip, download the installer from
+   [here](https://github.com/george-hall-ucl/portable-cellxgene/releases/latest/download/Install-Portable-CELLxGENE-MacOS-apple-silicon.dmg).
+   If it has an intel chip, download the installer from
+   [here](https://github.com/george-hall-ucl/portable-cellxgene/releases/latest/download/Install-Portable-CELLxGENE-MacOS-intel.dmg).
+   (to determine whether your Mac has an Apple M-series chip or an intel chip,
+   click the Apple logo in the top left corner of your screen, go to "About
+   This Mac" and look under "Chip").
+2. Double click on the downloaded file to open it.
+3. Drag the app's icon into the `Applications` folder.
+4. Portable-CELLxGENE can now be run like any other program.
 
-To get started with creating a site, simply:
+<details>
+<summary>Click to reveal video of installation process</summary>
+<kbd><img src="assets/images/Portable-CELLxGENE_MacOS_Installation.gif" alt="Gif showing installation process on MacOS."></kbd>
+</details>
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+### Windows
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+1. Download the installation program from
+   [here](https://github.com/george-hall-ucl/portable-cellxgene/releases/download/v1.4/Install-Portable-CELLxGENE-Windows_v1_4.exe).
+2. Double click on the downloaded file to run it. It should download and
+   install Portable-CELLxGENE.
 
-----
+Since the software is new, Windows Defender SmartScreen may try to block its
+execution. If this happens, you will see a pop-up saying "Windows protected
+your PC". Click `More info` and then `Run anyway`. You should only need to do
+this once for the installer and once for the program itself.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+<details>
+<summary>Click to reveal images showing how to bypass SmartScreen</summary>
+    <center>
+    <kbd><img src="assets/images/smartscreen1.png" alt="Image showing the first step of disabling SmartScreen." width=400></kbd>
+    <kbd><img src="assets/images/smartscreen2.png" alt="Image showing the second step of disabling SmartScreen." width=400></kbd>
+    </center>
+</details>
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## Running Portable-CELLxGENE
+
+<details>
+<summary>Click to reveal video of basic Portable-CELLxGENE usage</summary>
+Recorded in MacOS, but the process is similar in Windows.
+<kbd><img src="assets/images/PCxG_MacOS_demo.gif" alt="Gif showing basic Portable-CELLxGENE usage."></kbd>
+</details>
+
+1. A file browser will open. Navigate to the folder containing your `.h5ad` and
+   click "Open".
+2. A page listing the datasets should open in your browser. If it does not open
+   after a minute, then navigate to
+   [http://127.0.0.1:5005/portable_home.html](http://127.0.0.1:5005/portable_home.html)
+   yourself. If the page opened automatically but is not displaying anything,
+   then you may need to refresh it.
+3. Follow the instructions on the homepage.
+4. Once you are finished, close the CELLxGENE browser tab(s) and quit the
+   app.
+
+Note: Each annotation session will continue running in the background until
+either the Portable-CELLxGENE app is terminated or the session is closed from
+the "View running sessions" page (see end of above video). For large datasets,
+this may slow down your computer so it is advisable to terminate them once you
+are finished.
+
+## How to use CELLxGENE
+
+There are many guides on how to use CELLxGENE available online, for example a
+basic introduction can be found
+[here](https://icbi-lab.github.io/cellxgene-user-guide/). The official
+documentation of CELLxGENE is
+[here](https://cellxgene.cziscience.com/docs/01__CellxGene), which gives
+in-depth information on its use.
+
