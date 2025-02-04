@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-<center><img src="assets/images/favicon_new_export_small.png"></center>
+<center><img src="assets/images/favicon_new_export_small.svg"></center>
 
 <center><h1>Portable-CELLxGENE</h1></center>
 
