@@ -6,12 +6,14 @@ nav_order: 4
 
 # Contributing guidelines
 
-You can contribute to Portable-CELLxGENE by submitting a
+The source code of Portable-CELLxGENE is available on
+[GitHub](https://github.com/george-hall-ucl/portable-cellxgene).  You can
+contribute to Portable-CELLxGENE by submitting a
 [pull request](https://github.com/george-hall-ucl/portable-cellxgene/pulls).
 Before spending time working on a contribution, you should check whether anyone
 else has submitted an
-[issue](https://github.com/george-hall-ucl/portable-cellxgene/issues)
-and is working on the same thing.
+[issue](https://github.com/george-hall-ucl/portable-cellxgene/issues) and is
+working on the same thing.
 
 All contributors are expected to adhere to the following:
 
