@@ -16,11 +16,12 @@ line or extra software.
 
 <br>
 <center>
-<h2>Download for</h2>
+<h2>Click to install</h2>
 <a href="https://github.com/george-hall-ucl/portable-cellxgene/releases/latest/download/Install-Portable-CELLxGENE.zip"><img src="assets/images/pcxg_docs_os_macos.png" alt="Download button for MacOS version." width="200"></a>
 &nbsp;
 <a href="https://github.com/george-hall-ucl/portable-cellxgene/releases/download/v1.4/Install-Portable-CELLxGENE-Windows_v1_4.exe"><img src="assets/images/pcxg_docs_os_windows.png" alt="Download button for Windows version." width="200"></a>
 </center>
+Having problems? Visit the [installation](installation.html) page.
 <br>
 
 ## Running Portable-CELLxGENE
