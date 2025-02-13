@@ -22,11 +22,6 @@ homepage does not work for you.
 3. Drag the app's icon into the `Applications` folder.
 4. Portable-CELLxGENE can now be run like any other program.
 
-<details>
-<summary>Click to reveal video of installation process</summary>
-<kbd><img src="assets/images/Portable-CELLxGENE_MacOS_Installation.gif" alt="Gif showing installation process on MacOS."></kbd>
-</details>
-
 ## Windows
 
 1. Download the installation program from

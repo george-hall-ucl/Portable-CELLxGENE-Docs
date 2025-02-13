@@ -21,6 +21,10 @@ line or extra software.
 &nbsp;
 <a href="https://github.com/george-hall-ucl/portable-cellxgene/releases/download/v1.4/Install-Portable-CELLxGENE-Windows_v1_4.exe"><img src="assets/images/pcxg_docs_os_windows.png" alt="Download button for Windows version." width="200"></a>
 </center>
+<details>
+<summary>Click to reveal video of MacOS installation process</summary>
+<kbd><img src="assets/images/Portable-CELLxGENE_MacOS_Installation_streamlined.gif" alt="Gif showing installation process on MacOS."></kbd>
+</details>
 Having problems? Visit the [installation](installation.html) page.
 <br>
 
