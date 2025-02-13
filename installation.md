@@ -37,7 +37,8 @@ homepage does not work for you.
 Since the software is new, Windows Defender SmartScreen may try to block its
 execution. If this happens, you will see a pop-up saying "Windows protected
 your PC". Click `More info` and then `Run anyway`. You should only need to do
-this once for the installer and once for the program itself.
+this once for the installer and once for the program itself. You may also need
+to allow Python to bypass the Windows firewall.
 
 <details>
 <summary>Click to reveal images showing how to bypass SmartScreen</summary>
