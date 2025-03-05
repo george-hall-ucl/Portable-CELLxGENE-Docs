@@ -8,13 +8,13 @@ nav_order: 8
 
 It would be greatly appreciated if you cited Portable-CELLxGENE if you found it useful.
 
-A pre-print is available at [arXiv](https://doi.org/10.48550/arXiv.2408.11844), which can be cited as:
+A [publication](https://gigabytejournal.com/articles/151) is available in Gigabyte, which can be cited as:
 
 ```
 @article{Portable-CELLxGENE,
   title={Portable-CELLxGENE: standalone executables of CELLxGENE for easy installation},
   author={Hall, George T.},
-  journal={arXiv preprint arXiv:2408.11844},
-  year={2024}
+  journal={Gigabyte},
+  year={2025}
 }
 ```
